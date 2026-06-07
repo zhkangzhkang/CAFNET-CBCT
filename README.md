@@ -48,7 +48,6 @@ All recommended script names are English-only and avoid Chinese characters, pare
 - [11. Recommended Ablation Study](#11-recommended-ablation-study)
 - [12. Troubleshooting](#12-troubleshooting)
 - [13. File Naming and Legacy Scripts](#13-file-naming-and-legacy-scripts)
-- [14. Bilingual README on GitHub](#14-bilingual-readme-on-github)
 
 ## 1. Quick Start
 
