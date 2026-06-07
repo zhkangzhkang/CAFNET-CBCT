@@ -676,20 +676,4 @@ Legacy scripts are not called by the current main pipeline. For official trainin
 python train_cafnet_cbct.py
 ```
 
-## 14. Bilingual README on GitHub
-
-GitHub does not provide a built-in dynamic language toggle for repository README files. The standard solution is to maintain separate Markdown files and link them at the top:
-
-```text
-README.md          English default page
-README.zh-CN.md    Chinese version
-```
-
-This repository uses the following language switch:
-
-```markdown
-[English](README.md) | [Chinese](README.zh-CN.md)
-```
-
-Because GitHub renders `README.md` by default, the English version is shown first for international readers. Chinese readers can open the Chinese version through the link at the top of the file.
 
