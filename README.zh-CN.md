@@ -1,6 +1,10 @@
 # CAFNet-CBCT
 
-[English](README.md) | [中文](README.zh-CN.md)
+<p align="center">
+  <b>Language:</b>
+  <a href="README.md">English</a> |
+  <a href="README.zh-CN.md">中文</a>
+</p>
 
 CAFNet-CBCT 是一个面向 3D CBCT 牙齿逐牙实例分割的半监督学习项目。当前主线方法已经从普通 Mean Teacher 扩展为：
 
@@ -540,7 +544,6 @@ python visualization.py --help
 | CAF-Net + dual teacher | 验证互补 teacher 的价值 |
 | CAF-Net + dual teacher + reliability mask | 验证置信度和 disagreement 校准 |
 | Full method | 验证 boundary consistency 的最终增益 |
-
 
 ## 12. 常见问题
 

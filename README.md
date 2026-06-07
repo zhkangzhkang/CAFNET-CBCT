@@ -1,6 +1,10 @@
 # CAFNet-CBCT
 
-[English](README.md) | [Chinese](README.zh-CN.md)
+<p align="center">
+  <b>Language:</b>
+  <a href="README.md">English</a> |
+  <a href="README.zh-CN.md">中文</a>
+</p>
 
 CAFNet-CBCT is a semi-supervised 3D CBCT tooth-wise anatomical instance segmentation project. The current main pipeline implements an anatomy-aware complementary-teacher framework for sparse-label CBCT tooth instance segmentation.
 
@@ -551,7 +555,6 @@ For a paper-ready experimental section, consider the following variants:
 | CAF-Net + dual teacher | Evaluate complementary teacher predictions |
 | CAF-Net + dual teacher + reliability mask | Evaluate confidence and disagreement calibration |
 | Full method | Evaluate boundary consistency on top of all components |
-
 
 ## 12. Troubleshooting
 
