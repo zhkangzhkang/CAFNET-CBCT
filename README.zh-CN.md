@@ -541,24 +541,6 @@ python visualization.py --help
 | CAF-Net + dual teacher + reliability mask | 验证置信度和 disagreement 校准 |
 | Full method | 验证 boundary consistency 的最终增益 |
 
-建议报告指标：
-
-```text
-Mean Dice
-HD95
-Per-tooth Dice
-Boundary/adhesion qualitative cases
-Merge/split failure examples
-```
-
-建议论文图包括：
-
-```text
-1. 方法框架图：CAF-Net + complementary dual teacher + reliable mask + boundary loss
-2. 定性分割图：GT / baseline / full method
-3. 边界错误案例：相邻牙粘连、根尖断裂、跨切片不连续
-4. 消融表：backbone、dual teacher、mask、boundary loss
-```
 
 ## 12. 常见问题
 
