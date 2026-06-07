@@ -552,24 +552,6 @@ For a paper-ready experimental section, consider the following variants:
 | CAF-Net + dual teacher + reliability mask | Evaluate confidence and disagreement calibration |
 | Full method | Evaluate boundary consistency on top of all components |
 
-Recommended metrics:
-
-```text
-Mean Dice
-HD95
-Per-tooth Dice
-Boundary/adhesion qualitative cases
-Merge/split failure examples
-```
-
-Recommended paper figures:
-
-```text
-1. Framework: CAF-Net + complementary dual teacher + reliable mask + boundary loss
-2. Qualitative segmentation: GT / baseline / full method
-3. Boundary failure cases: adjacent-tooth adhesion, apex fracture, cross-slice discontinuity
-4. Ablation table: backbone, dual teacher, reliability mask, boundary loss
-```
 
 ## 12. Troubleshooting
 
